@@ -1,0 +1,42 @@
+@import 'App';
+
+.search-container {
+  max-width: 1100px;
+  margin: 15px auto;
+}
+
+.search-wrapper {
+  display: flex;
+  grid-gap: 20px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.search-btn {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #ddd;
+}
+
+.weather-container {
+  width: 20%;
+  border: 1px solid #ddd;
+  max-width: 1100px;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+.temp-wrapper {
+  display: flex;
+  justify-content: center;
+  grid-gap: 25px;
+  align-items: center;
+}
